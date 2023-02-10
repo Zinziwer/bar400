@@ -37,3 +37,8 @@ while right > left:
         right -= 1
 
 print(arrrr)
+
+my_arr = [randint(0,3) for x in range(0, 15)]
+my_arr.sort(key=lambda x: x == 3)
+print(my_arr)
+
